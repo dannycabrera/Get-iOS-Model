@@ -21,6 +21,7 @@ Get device hardware string using Xamarin.iOS
 
 ```
 Console.WriteLine(Xamarin.iOS.DeviceHardware.Version);
+Console.WriteLine(new iOSHardware().GetModel(Xamarin.iOS.DeviceHardware.Version));
 ```
 
 *******
