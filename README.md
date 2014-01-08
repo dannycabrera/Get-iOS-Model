@@ -4,6 +4,8 @@ Get-iOS-Model
 Get the iOS model using the hw.machine string
 *******
 Will keep this updated as new devices are available.
+
+Updated on 1/8/2014 to include iPad Mini Retina and iPad Air.
 *******
 
 Sample
