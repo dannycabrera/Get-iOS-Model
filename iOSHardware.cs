@@ -21,7 +21,7 @@ class iOSHardware
             if (hardware == "iPhone5,1")
                 return "iPhone 5 GSM";
             if (hardware == "iPhone5,2")
-                return "iPhone 5 CDMA";
+                return "iPhone 5 Global";
             if (hardware == "iPhone5,3")
                 return "iPhone 5C GSM";
             if (hardware == "iPhone5,4")
