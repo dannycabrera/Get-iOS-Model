@@ -30,6 +30,10 @@ class iOSHardware
                 return "iPhone 5S GSM";
             if (hardware == "iPhone6,2")
                 return "iPhone 5S Global";
+            if (hardware == "iPhone7,2")
+                return "iPhone 6";
+            if (hardware == "iPhone7,1")
+                return "iPhone 6 Plus";
         }
 
         if (hardware.StartsWith("iPod"))
