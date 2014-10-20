@@ -6,6 +6,7 @@ Get the iOS model using the hw.machine string
 Will keep this updated as new devices are available.
 
 Updates:<br/>
+10/20/2014 - added iPad Air 2 & iPad mini 3<br/>
 09/17/2014 - added iPhone 6 and 6 Plus<br/>
 01/08/2014 - added iPad Mini Retina and iPad Air.
 *******
