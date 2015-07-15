@@ -171,6 +171,15 @@ class iOSHardware
             // FCC Doc(s): https://apps.fcc.gov/oetcf/eas/reports/ViewExhibitReport.cfm?mode=Exhibits&calledFromFrame=N&application_id=141880&fcc_id=%27BCG-A1421%27
             if (hardware == "iPod5,1")
                 return "iPod touch 5G";
+				
+			// ************
+            // iPod touch 6G
+            // ************
+            // Model(s): A1574
+            // Apple Tech specs: (A1574) 
+            // FCC Doc(s): 
+            if (hardware == "iPod7,1")
+                return "iPod touch 6G";
         }
 
         if (hardware.StartsWith("iPad"))
