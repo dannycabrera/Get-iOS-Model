@@ -143,11 +143,11 @@ class iOSHardware
             if (hardware == "iPod5,1")
                 return "iPod touch 5G";
 				
-			// ************
+            // ************
             // iPod touch 6G
             // ************
             // Model(s): A1574
-            // Apple Tech specs: (A1574) 
+            // Apple Tech specs: (A1574) https://support.apple.com/kb/SP720 
             if (hardware == "iPod7,1")
                 return "iPod touch 6G";
         }
