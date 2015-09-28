@@ -87,7 +87,7 @@ class iOSHardware
             // ************
             // iPhone 6
             // ************
-            // Model(s): A1549 & A1586
+            // Model(s): A1549, A1586 & A1589
             // Apple Tech specs: http://support.apple.com/kb/SP705
             if (hardware == "iPhone7,2")
                 return "iPhone 6";
@@ -95,10 +95,26 @@ class iOSHardware
             // ************
             // iPhone 6 Plus
             // ************
-            // Model(s): A1522 & A1524	
+            // Model(s): A1522, A1524 & A1593
             // Apple Tech specs: http://support.apple.com/kb/SP706
             if (hardware == "iPhone7,1")
                 return "iPhone 6 Plus";
+				
+			// ************
+            // iPhone 6S
+            // ************
+            // Model(s): A1633, A1688 & A1700
+            // Apple Tech specs: http://support.apple.com/kb/SP726
+            if (hardware == "iPhone8,1")
+                return "iPhone 6S";
+
+            // ************
+            // iPhone 6S Plus
+            // ************
+            // Model(s): A1634, A1687 & A1699
+            // Apple Tech specs: http://support.apple.com/kb/SP727
+            if (hardware == "iPhone8,2")
+                return "iPhone 6S Plus";
         }
 
         if (hardware.StartsWith("iPod"))
@@ -231,6 +247,15 @@ class iOSHardware
             // Model(s): A1567
             if (hardware == "iPad5,4")
                 return "iPad Air 2";
+				
+			// ************
+            // iPad Pro
+            // ************
+            // Apple Tech specs: 
+            // Model(s):
+            if (hardware == "iPad") 
+                return "iPad Pro";
+            
 
             // ************
             // iPad mini
@@ -273,6 +298,16 @@ class iOSHardware
             // Model(s): A1601
             if (hardware == "iPad4,9")
                 return "iPad mini 3 Wi-Fi + Cellular (TD-LTE)";
+				
+			// ************
+            // iPad mini 4
+            // ************
+            // Apple Tech specs: http://support.apple.com/kb/SP725
+            // Model(s): 
+            if (hardware == "iPad5,1")
+                return "iPad mini 4";
+			if (hardware == "iPad5,2")
+                return "iPad mini 4";
         }
 
         if (hardware == "i386" || hardware == "x86_64")
