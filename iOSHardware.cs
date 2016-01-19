@@ -249,13 +249,15 @@ class iOSHardware
                 return "iPad Air 2";
 				
 			// ************
-            // iPad Pro
-            // ************
-            // Apple Tech specs: 
-            // Model(s):
-            if (hardware == "iPad") 
-                return "iPad Pro";
-            
+			// iPad Pro
+			// ************
+			// Apple Tech specs: https://support.apple.com/kb/SP723
+			// Model(s): A1584 (Wi-Fi) 
+			if (hardware == "iPad6,7")
+				return "iPad Pro";
+			// Model(s): A1652 (Wi-Fi + Cellular)
+			if (hardware == "iPad6,8")
+				return "iPad Pro Wi-Fi + Cellular";
 
             // ************
             // iPad mini
