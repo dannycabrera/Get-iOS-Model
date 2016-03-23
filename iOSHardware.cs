@@ -115,6 +115,14 @@ class iOSHardware
             // Apple Tech specs: http://support.apple.com/kb/SP727
             if (hardware == "iPhone8,2")
                 return "iPhone 6S Plus";
+				
+			// ************
+            // iPhone SE
+            // ************
+            // Model(s): A1662 & A1723
+            // Apple Tech specs: 
+            if (hardware == "iPhone8,4")
+                return "iPhone SE";
         }
 
         if (hardware.StartsWith("iPod"))
