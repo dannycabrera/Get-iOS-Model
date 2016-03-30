@@ -1,6 +1,6 @@
 class iOSHardware
 {
-	public String GetModel(String hardware)
+    public String GetModel(String hardware)
     {
         // http://support.apple.com/kb/HT3939
         if (hardware.StartsWith("iPhone"))
@@ -99,8 +99,8 @@ class iOSHardware
             // Apple Tech specs: http://support.apple.com/kb/SP706
             if (hardware == "iPhone7,1")
                 return "iPhone 6 Plus";
-				
-			// ************
+
+            // ************
             // iPhone 6S
             // ************
             // Model(s): A1633, A1688 & A1700
@@ -115,8 +115,8 @@ class iOSHardware
             // Apple Tech specs: http://support.apple.com/kb/SP727
             if (hardware == "iPhone8,2")
                 return "iPhone 6S Plus";
-				
-			// ************
+
+            // ************
             // iPhone SE
             // ************
             // Model(s): A1662 & A1723
@@ -166,7 +166,7 @@ class iOSHardware
             // Apple Tech specs: (A1421) http://support.apple.com/kb/SP657 & (A1509) http://support.apple.com/kb/SP675
             if (hardware == "iPod5,1")
                 return "iPod touch 5G";
-				
+
             // ************
             // iPod touch 6G
             // ************
@@ -255,29 +255,29 @@ class iOSHardware
             // Model(s): A1567
             if (hardware == "iPad5,4")
                 return "iPad Air 2";
-				
-			// ************
-			// iPad Pro
-			// ************
-			// Apple Tech specs: https://support.apple.com/kb/SP723
-			// Model(s): A1584 (Wi-Fi) 
-			if (hardware == "iPad6,7")
-				return "iPad Pro";
-			// Model(s): A1652 (Wi-Fi + Cellular)
-			if (hardware == "iPad6,8")
-				return "iPad Pro Wi-Fi + Cellular";
 
-			// ************
-			// iPad Pro (9.7-inch)
-			// ************
-			// Apple Tech specs: https://support.apple.com/kb/SP739
-			// Model(s): A1673
-			if (hardware == "iPad6,3")
-				return "iPad Pro (9.7-inch)";
-			// Model(s): A1674, A1675 (Wi-Fi + Cellular)
-			if (hardware == "iPad6,8")
-				return "iPad Pro (9.7-inch) Wi-Fi + Cellular";
-				
+            // ************
+            // iPad Pro
+            // ************
+            // Apple Tech specs: https://support.apple.com/kb/SP723
+            // Model(s): A1584 (Wi-Fi) 
+            if (hardware == "iPad6,7")
+                return "iPad Pro";
+            // Model(s): A1652 (Wi-Fi + Cellular)
+            if (hardware == "iPad6,8")
+                return "iPad Pro Wi-Fi + Cellular";
+
+            // ************
+            // iPad Pro (9.7-inch)
+            // ************
+            // Apple Tech specs: https://support.apple.com/kb/SP739
+            // Model(s): A1673
+            if (hardware == "iPad6,3")
+                return "iPad Pro (9.7-inch)";
+            // Model(s): A1674, A1675 (Wi-Fi + Cellular)
+            if (hardware == "iPad6,8")
+                return "iPad Pro (9.7-inch) Wi-Fi + Cellular";
+
             // ************
             // iPad mini
             // ************
@@ -319,15 +319,15 @@ class iOSHardware
             // Model(s): A1601
             if (hardware == "iPad4,9")
                 return "iPad mini 3 Wi-Fi + Cellular (TD-LTE)";
-				
-			// ************
+
+            // ************
             // iPad mini 4
             // ************
             // Apple Tech specs: http://support.apple.com/kb/SP725
             // Model(s): 
             if (hardware == "iPad5,1")
                 return "iPad mini 4";
-			if (hardware == "iPad5,2")
+            if (hardware == "iPad5,2")
                 return "iPad mini 4";
         }
 
