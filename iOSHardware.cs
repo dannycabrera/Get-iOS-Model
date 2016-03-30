@@ -120,7 +120,7 @@ class iOSHardware
             // iPhone SE
             // ************
             // Model(s): A1662 & A1723
-            // Apple Tech specs: 
+            // Apple Tech specs: https://support.apple.com/kb/SP738
             if (hardware == "iPhone8,4")
                 return "iPhone SE";
         }
@@ -267,6 +267,17 @@ class iOSHardware
 			if (hardware == "iPad6,8")
 				return "iPad Pro Wi-Fi + Cellular";
 
+			// ************
+			// iPad Pro (9.7-inch)
+			// ************
+			// Apple Tech specs: https://support.apple.com/kb/SP739
+			// Model(s): A1673
+			if (hardware == "iPad6,3")
+				return "iPad Pro (9.7-inch)";
+			// Model(s): A1674, A1675 (Wi-Fi + Cellular)
+			if (hardware == "iPad6,8")
+				return "iPad Pro (9.7-inch) Wi-Fi + Cellular";
+				
             // ************
             // iPad mini
             // ************
