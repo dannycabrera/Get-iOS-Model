@@ -324,11 +324,12 @@ class iOSHardware
             // iPad mini 4
             // ************
             // Apple Tech specs: http://support.apple.com/kb/SP725
-            // Model(s): 
+            // Model(s): A1538
             if (hardware == "iPad5,1")
                 return "iPad mini 4";
+            // Model(s): A1550
             if (hardware == "iPad5,2")
-                return "iPad mini 4";
+                return " iPad mini 4 Wi-Fi + Cellular";
         }
 
         if (hardware == "i386" || hardware == "x86_64")
