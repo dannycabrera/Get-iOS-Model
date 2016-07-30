@@ -1,6 +1,6 @@
 class iOSHardware
 {
-    public String GetModel(String hardware)
+    public string GetModel(string hardware)
     {
         // http://support.apple.com/kb/HT3939
         if (hardware.StartsWith("iPhone"))
