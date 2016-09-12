@@ -123,6 +123,22 @@ class iOSHardware
             // Apple Tech specs: https://support.apple.com/kb/SP738
             if (hardware == "iPhone8,4")
                 return "iPhone SE";
+
+            // ************
+            // iPhone 7
+            // ************
+            // Model(s): A1660, A1778, A1779 & A1780
+            // Apple Tech specs: https://support.apple.com/kb/SP743
+            if (hardware == "iPhone9,1" || hardware == "iPhone9,3")
+                return "iPhone 7";
+
+            // ************
+            // iPhone 7
+            // ************
+            // Model(s): A1661, A1784, A1785 and A1786 
+            // Apple Tech specs: https://support.apple.com/kb/SP744
+            if (hardware == "iPhone9,2" || hardware == "iPhone9,4")
+                return "iPhone 7 Plus";
         }
 
         if (hardware.StartsWith("iPod"))
