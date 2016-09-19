@@ -345,7 +345,7 @@ class iOSHardware
                 return "iPad mini 4";
             // Model(s): A1550
             if (hardware == "iPad5,2")
-                return " iPad mini 4 Wi-Fi + Cellular";
+                return "iPad mini 4 Wi-Fi + Cellular";
         }
 
         if (hardware == "i386" || hardware == "x86_64")
