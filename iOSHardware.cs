@@ -273,7 +273,7 @@ class iOSHardware
                 return "iPad Air 2";
 
             // ************
-            // iPad Pro
+            // iPad Pro (12.9 inch)
             // ************
             // Apple Tech specs: https://support.apple.com/kb/SP723
             // Model(s): A1584 (Wi-Fi) 
@@ -284,14 +284,14 @@ class iOSHardware
                 return "iPad Pro Wi-Fi + Cellular";
 
             // ************
-            // iPad Pro (9.7-inch)
+            // iPad Pro (9.7 inch)
             // ************
             // Apple Tech specs: https://support.apple.com/kb/SP739
             // Model(s): A1673
             if (hardware == "iPad6,3")
                 return "iPad Pro (9.7-inch)";
             // Model(s): A1674, A1675 (Wi-Fi + Cellular)
-            if (hardware == "iPad6,8")
+            if (hardware == "iPad6,4")
                 return "iPad Pro (9.7-inch) Wi-Fi + Cellular";
 
             // ************
