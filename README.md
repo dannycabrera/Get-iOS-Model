@@ -6,7 +6,7 @@ Get the iOS model using the hw.machine string
 Will keep this updated as new devices are available.
 
 Updates:<br/>
-03/21/2017 - Added new iPad 5th generation
+03/21/2017 - Added new iPad 5th generation<br/>
 10/26/2016 - corrected/added missing iPad6,4<br/>
 09/12/2016 - added iPhone 7 and 7 Plus<br/>
 03/30/2016 - added iPad Pro (9.7-inch) and iPhone SE<br/>
