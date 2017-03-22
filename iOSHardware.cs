@@ -346,6 +346,17 @@ class iOSHardware
             // Model(s): A1550
             if (hardware == "iPad5,2")
                 return "iPad mini 4 Wi-Fi + Cellular";
+			
+			// ************
+            // iPad (9.7 inch - 5th generation)
+            // ************
+            // Apple Tech specs: http://support.apple.com/kb/SP751
+            // Model(s): A1822
+            if (hardware == "iPad6,11")
+                return "iPad 5 Wi-Fi";
+			// Model(s): A1823
+			if (hardware == "iPad6,12")
+                return "iPad 5 Wi-Fi + Cellular";
         }
 
         if (hardware == "i386" || hardware == "x86_64")
