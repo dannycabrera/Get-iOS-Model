@@ -3,7 +3,7 @@ Get-iOS-Model
 
 Get the iOS model using the hw.machine string
 *******
-Will keep this updated as new devices are available.
+Will keep repository updated as new devices become available.
 
 Updates:<br/>
 06/27/2017 - Added iPad Pro (12.9-inch 2nd generation) and iPad Pro (10.5-inch)<br/>
