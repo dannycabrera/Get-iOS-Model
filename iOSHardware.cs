@@ -295,6 +295,28 @@ class iOSHardware
                 return "iPad Pro (9.7-inch) Wi-Fi + Cellular";
 
             // ************
+            // iPad Pro (12.9-inch) (2nd generation)
+            // ************
+            // Apple Tech specs: https://support.apple.com/kb/SP761
+            // Model(s): A1670
+            if (hardware == "iPad7,1")
+                return "iPad Pro (12.9-inch) (2nd generation)";
+            // Model(s): A1671
+            if (hardware == "iPad7,2")
+                return "iPad Pro (12.9-inch) (2nd generation) Wi-Fi + Cellular";
+
+            // ************
+            // iPad Pro (10.5-inch)
+            // ************
+            // Apple Tech specs: https://support.apple.com/kb/SP762
+            // Model(s): A1701
+            if (hardware == "iPad7,3")
+                return "iPad Pro (10.5-inch)";
+            // Model(s): A1709
+            if (hardware == "iPad7,4")
+                return "iPad Pro (10.5-inch) Wi-Fi + Cellular";
+
+            // ************
             // iPad mini
             // ************
             // Apple Tech specs: http://support.apple.com/kb/SP661
