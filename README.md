@@ -38,5 +38,6 @@ Console.WriteLine(new iOSHardware().GetModel(Xamarin.iOS.DeviceHardware.Version)
 ```
 
 *******
-####Run Sample:
-http://executify.com/10027/
+Thanks to:
+-------
+@sven-s and @manishkungwani for their pull requests.
