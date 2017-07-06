@@ -1,15 +1,17 @@
 using System;
 using System.Runtime.InteropServices;
+using Foundation;
 using ObjCRuntime;
 
 namespace Xamarin.iOS
 {
+	[Preserve(AllMembers = true)]
 	public static class DeviceHardware
     {
         private const string HardwareProperty = "hw.machine";
 
         [DllImport(Constants.SystemLibrary)]
-        private static extern int Sysctlbyname([MarshalAs(UnmanagedType.LPStr)] string property,
+        private static extern int sysctlbyname([MarshalAs(UnmanagedType.LPStr)] string property,
                                                 IntPtr output,
                                                 IntPtr oldLen,
                                                 IntPtr newp,
@@ -24,7 +26,7 @@ namespace Xamarin.iOS
             {
                 // get the length of the string that will be returned
                 var pLen = Marshal.AllocHGlobal(sizeof(int));
-                Sysctlbyname(HardwareProperty, IntPtr.Zero, pLen, IntPtr.Zero, 0);
+                sysctlbyname(HardwareProperty, IntPtr.Zero, pLen, IntPtr.Zero, 0);
 
                 var length = Marshal.ReadInt32(pLen);
 
@@ -37,7 +39,7 @@ namespace Xamarin.iOS
 
                 // get the hardware string
                 var pStr = Marshal.AllocHGlobal(length);
-                Sysctlbyname(HardwareProperty, pStr, pLen, IntPtr.Zero, 0);
+                sysctlbyname(HardwareProperty, pStr, pLen, IntPtr.Zero, 0);
 
                 // convert the native string into a C# string
                 var hardwareStr = Marshal.PtrToStringAnsi(pStr);
