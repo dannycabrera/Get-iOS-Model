@@ -6,6 +6,7 @@ Get the iOS model using the hw.machine string
 Will keep repository updated as new devices become available.
 
 Updates:<br/>
+07/06/2017 - Adding NuGet<br/>
 06/27/2017 - Added iPad Pro (12.9-inch 2nd generation) and iPad Pro (10.5-inch)<br/>
 03/21/2017 - Added new iPad 5th generation<br/>
 10/26/2016 - corrected/added missing iPad6,4<br/>
@@ -40,4 +41,4 @@ Console.WriteLine(new iOSHardware().GetModel(Xamarin.iOS.DeviceHardware.Version)
 *******
 Thanks to:
 -------
-@sven-s and @manishkungwani for their pull requests.
+@sven-s, @manishkungwani, @jimbobbennett for their pull requests.
