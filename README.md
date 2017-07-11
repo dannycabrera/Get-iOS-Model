@@ -24,19 +24,17 @@ Sample
 -------
 
 ```
-Console.WriteLine(new iOSHardware().GetModel("iPhone5,3"));
+Console.WriteLine(Xamarin.iOS.DeviceHardware.Version);
+```
+
+Result: "iPhone5,3"
+
+
+```
+Console.WriteLine(Xamarin.iOS.DeviceHardware.Model);
 ```
 
 Result: "iPhone 5C GSM"
-
-*******
-Get device hardware string using Xamarin.iOS
--------
-
-```
-Console.WriteLine(Xamarin.iOS.DeviceHardware.Version);
-Console.WriteLine(new iOSHardware().GetModel(Xamarin.iOS.DeviceHardware.Version));
-```
 
 *******
 Thanks to:
