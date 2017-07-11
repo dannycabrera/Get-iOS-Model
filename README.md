@@ -20,6 +20,13 @@ Updates:<br/>
 01/08/2014 - added iPad Mini Retina and iPad Air<br/>
 *******
 
+## Install
+
+#### [NuGet Gallery](https://www.nuget.org/packages/dannycabrera.GetiOSModel)
+```
+Install-Package dannycabrera.GetiOSModel
+```
+
 Sample
 -------
 
