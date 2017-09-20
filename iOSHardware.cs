@@ -164,7 +164,7 @@ namespace Xamarin.iOS
                 // ************
                 // iPhone X
                 // ************
-                // Model(s): A1865 & A1901
+                // Model(s): A1865, A1901 & A1902
                 // Apple Tech specs: https://support.apple.com/kb/SP770
                 if (hardware == "iPhone10,3" || hardware == "iPhone10,6")
                     return "iPhone X";

@@ -6,6 +6,7 @@ Get the iOS model using the hw.machine string
 Will keep repository updated as new devices become available.
 
 Updates:<br/>
+09/19/2017 - Added iPhone 8, 8 Plus and X
 09/14/2017 - NuGet updated to v1.1<br/>
 07/06/2017 - Adding NuGet<br/>
 06/27/2017 - Added iPad Pro (12.9-inch 2nd generation) and iPad Pro (10.5-inch)<br/>
