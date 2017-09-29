@@ -59,6 +59,17 @@ namespace Xamarin.iOS
 		}
 
         public static string Version => FindVersion();
-        public static string Model => _hardwareMapper.GetModel(Version);
+        public static string Model
+        {
+            get
+            {
+                var v = Version;
+
+                if (v == "i386" || v == "x86_64")
+                    return _hardwareMapper.GetModel(NSProcessInfo.ProcessInfo.Environment["SIMULATOR_MODEL_IDENTIFIER"].ToString()) + " Simulator";
+                else
+                    return _hardwareMapper.GetModel(v);
+            }
+        }
     }
 }
