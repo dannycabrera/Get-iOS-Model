@@ -9,6 +9,7 @@
 *.user
 *.userprefs
 *.sln.docstates
+.vs/
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/

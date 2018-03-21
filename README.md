@@ -5,6 +5,8 @@ Get the iOS model using the hw.machine string
 *******
 Will keep repository updated as new devices become available.
 
+If you need an Android library check out my other repo https://github.com/dannycabrera/GetDroidModel.
+
 Updates:<br/>
 09/29/2017 - Model info now returned on simulators & updated Nuget to v1.3.<br/>
 09/19/2017 - Added iPhone 8, 8 Plus and X. Also updating NuGet to v1.2.<br/>
