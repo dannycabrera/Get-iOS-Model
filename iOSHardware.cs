@@ -7,14 +7,14 @@ namespace Xamarin.iOS
     {
         public string GetModel(string hardware)
         {
-            // http://support.apple.com/kb/HT3939
+            // https://support.apple.com/kb/HT3939
             if (hardware.StartsWith("iPhone"))
             {
                 // ************
                 // iPhone
                 // ************
                 // Model(s): A1203
-                // Apple Tech specs: http://support.apple.com/kb/SP2
+                // Apple Tech specs: https://support.apple.com/kb/SP2
                 if (hardware == "iPhone1,1")
                     return "iPhone";
 
@@ -22,7 +22,7 @@ namespace Xamarin.iOS
                 // iPhone 3G
                 // ************
                 // Model(s): A1241 & A1324
-                // Apple Tech specs: http://support.apple.com/kb/SP495
+                // Apple Tech specs: https://support.apple.com/kb/SP495
                 if (hardware == "iPhone1,2")
                     return "iPhone 3G";
 
@@ -30,7 +30,7 @@ namespace Xamarin.iOS
                 // iPhone 3GS
                 // ************
                 // Model(s): A1303 & A1325
-                // Apple Tech specs: http://support.apple.com/kb/SP565
+                // Apple Tech specs: https://support.apple.com/kb/SP565
                 if (hardware == "iPhone2,1")
                     return "iPhone 3GS";
 
@@ -38,7 +38,7 @@ namespace Xamarin.iOS
                 // iPhone 4
                 // ************
                 // Model(s): A1332
-                // Apple Tech specs: http://support.apple.com/kb/SP587
+                // Apple Tech specs: https://support.apple.com/kb/SP587
                 if (hardware == "iPhone3,1" || hardware == "iPhone3,2")
                     return "iPhone 4 GSM";
                 // Model(s): A1349
@@ -49,7 +49,7 @@ namespace Xamarin.iOS
                 // iPhone 4S
                 // ************
                 // Model(s): A1387 & A1431
-                // Apple Tech specs: http://support.apple.com/kb/SP643
+                // Apple Tech specs: https://support.apple.com/kb/SP643
                 if (hardware == "iPhone4,1")
                     return "iPhone 4S";
 
@@ -57,7 +57,7 @@ namespace Xamarin.iOS
                 // iPhone 5
                 // ************
                 // Model(s): A1428
-                // Apple Tech specs: http://support.apple.com/kb/SP655
+                // Apple Tech specs: https://support.apple.com/kb/SP655
                 if (hardware == "iPhone5,1")
                     return "iPhone 5 GSM";
 
@@ -69,7 +69,7 @@ namespace Xamarin.iOS
                 // iPhone 5C
                 // ************
                 // Model(s): A1456 & A1532
-                // Apple Tech specs: http://support.apple.com/kb/SP684
+                // Apple Tech specs: https://support.apple.com/kb/SP684
                 if (hardware == "iPhone5,3")
                     return "iPhone 5C GSM";
 
@@ -81,7 +81,7 @@ namespace Xamarin.iOS
                 // iPhone 5S
                 // ************
                 // Model(s): A1453 & A1533
-                // Apple Tech specs: http://support.apple.com/kb/SP685
+                // Apple Tech specs: https://support.apple.com/kb/SP685
                 if (hardware == "iPhone6,1")
                     return "iPhone 5S GSM";
 
@@ -93,7 +93,7 @@ namespace Xamarin.iOS
                 // iPhone 6
                 // ************
                 // Model(s): A1549, A1586 & A1589
-                // Apple Tech specs: http://support.apple.com/kb/SP705
+                // Apple Tech specs: https://support.apple.com/kb/SP705
                 if (hardware == "iPhone7,2")
                     return "iPhone 6";
 
@@ -101,7 +101,7 @@ namespace Xamarin.iOS
                 // iPhone 6 Plus
                 // ************
                 // Model(s): A1522, A1524 & A1593
-                // Apple Tech specs: http://support.apple.com/kb/SP706
+                // Apple Tech specs: https://support.apple.com/kb/SP706
                 if (hardware == "iPhone7,1")
                     return "iPhone 6 Plus";
 
@@ -109,7 +109,7 @@ namespace Xamarin.iOS
                 // iPhone 6S
                 // ************
                 // Model(s): A1633, A1688 & A1700
-                // Apple Tech specs: http://support.apple.com/kb/SP726
+                // Apple Tech specs: https://support.apple.com/kb/SP726
                 if (hardware == "iPhone8,1")
                     return "iPhone 6S";
 
@@ -117,7 +117,7 @@ namespace Xamarin.iOS
                 // iPhone 6S Plus
                 // ************
                 // Model(s): A1634, A1687 & A1699
-                // Apple Tech specs: http://support.apple.com/kb/SP727
+                // Apple Tech specs: https://support.apple.com/kb/SP727
                 if (hardware == "iPhone8,2")
                     return "iPhone 6S Plus";
 
@@ -176,7 +176,7 @@ namespace Xamarin.iOS
                 // iPod touch
                 // ************
                 // Model(s): A1213
-                // Apple Tech specs: http://support.apple.com/kb/SP3
+                // Apple Tech specs: https://support.apple.com/kb/SP3
                 if (hardware == "iPod1,1")
                     return "iPod touch";
 
@@ -184,7 +184,7 @@ namespace Xamarin.iOS
                 // iPod touch 2G
                 // ************
                 // Model(s): A1288
-                // Apple Tech specs: http://support.apple.com/kb/SP496
+                // Apple Tech specs: https://support.apple.com/kb/SP496
                 if (hardware == "iPod2,1")
                     return "iPod touch 2G";
 
@@ -192,7 +192,7 @@ namespace Xamarin.iOS
                 // iPod touch 3G
                 // ************
                 // Model(s): A1318
-                // Apple Tech specs: http://support.apple.com/kb/SP570
+                // Apple Tech specs: https://support.apple.com/kb/SP570
                 if (hardware == "iPod3,1")
                     return "iPod touch 3G";
 
@@ -200,7 +200,7 @@ namespace Xamarin.iOS
                 // iPod touch 4G
                 // ************
                 // Model(s): A1367
-                // Apple Tech specs: http://support.apple.com/kb/SP594
+                // Apple Tech specs: https://support.apple.com/kb/SP594
                 if (hardware == "iPod4,1")
                     return "iPod touch 4G";
 
@@ -208,7 +208,7 @@ namespace Xamarin.iOS
                 // iPod touch 5G
                 // ************
                 // Model(s): A1421 & A1509
-                // Apple Tech specs: (A1421) http://support.apple.com/kb/SP657 & (A1509) http://support.apple.com/kb/SP675
+                // Apple Tech specs: (A1421) https://support.apple.com/kb/SP657 & (A1509) https://support.apple.com/kb/SP675
                 if (hardware == "iPod5,1")
                     return "iPod touch 5G";
 
@@ -227,14 +227,14 @@ namespace Xamarin.iOS
                 // iPad
                 // ************
                 // Model(s): A1219 (WiFi) & A1337 (GSM)
-                // Apple Tech specs: http://support.apple.com/kb/SP580
+                // Apple Tech specs: https://support.apple.com/kb/SP580
                 if (hardware == "iPad1,1")
                     return "iPad";
 
                 // ************
                 // iPad 2
                 // ************
-                // Apple Tech specs: http://support.apple.com/kb/SP622
+                // Apple Tech specs: https://support.apple.com/kb/SP622
                 // Model(s): A1395
                 if (hardware == "iPad2,1")
                     return "iPad 2 WiFi";
@@ -251,7 +251,7 @@ namespace Xamarin.iOS
                 // ************
                 // iPad 3
                 // ************
-                // Apple Tech specs: http://support.apple.com/kb/SP647
+                // Apple Tech specs: https://support.apple.com/kb/SP647
                 // Model(s): A1416
                 if (hardware == "iPad3,1")
                     return "iPad 3 WiFi";
@@ -265,7 +265,7 @@ namespace Xamarin.iOS
                 // ************
                 // iPad 4
                 // ************
-                // Apple Tech specs: http://support.apple.com/kb/SP662
+                // Apple Tech specs: https://support.apple.com/kb/SP662
                 // Model(s): A1458
                 if (hardware == "iPad3,4")
                     return "iPad 4 Wifi";
@@ -279,7 +279,7 @@ namespace Xamarin.iOS
                 // ************
                 // iPad Air
                 // ************
-                // Apple Tech specs: http://support.apple.com/kb/SP692
+                // Apple Tech specs: https://support.apple.com/kb/SP692
                 // Model(s): A1474
                 if (hardware == "iPad4,1")
                     return "iPad Air Wifi";
@@ -348,7 +348,7 @@ namespace Xamarin.iOS
                 // ************
                 // iPad mini
                 // ************
-                // Apple Tech specs: http://support.apple.com/kb/SP661
+                // Apple Tech specs: https://support.apple.com/kb/SP661
                 // Model(s): A1432
                 if (hardware == "iPad2,5")
                     return "iPad mini Wifi";
@@ -362,7 +362,7 @@ namespace Xamarin.iOS
                 // ************
                 // iPad mini 2
                 // ************
-                // Apple Tech specs: http://support.apple.com/kb/SP693
+                // Apple Tech specs: https://support.apple.com/kb/SP693
                 // Model(s): A1489
                 if (hardware == "iPad4,4")
                     return "iPad mini 2 Wifi";
@@ -376,7 +376,7 @@ namespace Xamarin.iOS
                 // ************
                 // iPad mini 3
                 // ************
-                // Apple Tech specs: 
+                // Apple Tech specs: https://support.apple.com/kb/SP709
                 // Model(s): A1599
                 if (hardware == "iPad4,7")
                     return "iPad mini 3 Wifi";
@@ -390,7 +390,7 @@ namespace Xamarin.iOS
                 // ************
                 // iPad mini 4
                 // ************
-                // Apple Tech specs: http://support.apple.com/kb/SP725
+                // Apple Tech specs: https://support.apple.com/kb/SP725
                 // Model(s): A1538
                 if (hardware == "iPad5,1")
                     return "iPad mini 4";
@@ -401,13 +401,24 @@ namespace Xamarin.iOS
                 // ************
                 // iPad (9.7 inch - 5th generation)
                 // ************
-                // Apple Tech specs: http://support.apple.com/kb/SP751
+                // Apple Tech specs: https://support.apple.com/kb/SP751
                 // Model(s): A1822
                 if (hardware == "iPad6,11")
                     return "iPad 5 Wi-Fi";
                 // Model(s): A1823
                 if (hardware == "iPad6,12")
                     return "iPad 5 Wi-Fi + Cellular";
+
+                // ************
+                // iPad (9.7 inch - 6th generation 2018)
+                // ************
+                // Apple Tech specs: 
+                // Model(s): A1893
+                if (hardware == "iPad7,5")
+                    return "iPad 6 Wi-Fi";
+                // Model(s): A1954
+                if (hardware == "iPad7,6")
+                    return "iPad 6 Wi-Fi + Cellular";
             }
 
             if (hardware == "i386" || hardware == "x86_64")
