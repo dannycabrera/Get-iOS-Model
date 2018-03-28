@@ -13,7 +13,7 @@
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
     <PackOnBuild>true</PackOnBuild>
     <PackageId>dannycabrera.GetiOSModel</PackageId>
-    <PackageVersion>1.3</PackageVersion>
+    <PackageVersion>1.4</PackageVersion>
     <Authors>Danny Cabrera, Jim Bennett</Authors>
     <PackageLicenseUrl>https://github.com/dannycabrera/Get-iOS-Model/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/dannycabrera/Get-iOS-Model</PackageProjectUrl>
@@ -21,6 +21,7 @@
     <PackageTags>Xamarin, iOS, Device, Hardware</PackageTags>
     <Title>Get iOS device model details for Xamarin</Title>
     <Description>Xamarin Helper library to get the name of the current iOS device.</Description>
+    <PackageReleaseNotes>Added new iPad 6 generation (9.7-inch 2018 model)</PackageReleaseNotes>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
