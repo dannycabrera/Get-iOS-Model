@@ -412,7 +412,7 @@ namespace Xamarin.iOS
                 // ************
                 // iPad (9.7 inch - 6th generation 2018)
                 // ************
-                // Apple Tech specs: 
+                // Apple Tech specs: https://support.apple.com/kb/SP774
                 // Model(s): A1893
                 if (hardware == "iPad7,5")
                     return "iPad 6 Wi-Fi";
