@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="packages\NuGet.Build.Packaging.0.2.0\build\NuGet.Build.Packaging.props" Condition="Exists('packages\NuGet.Build.Packaging.0.2.0\build\NuGet.Build.Packaging.props')" />
+  <Import Project="packages\NuGet.Build.Packaging.0.2.2\build\NuGet.Build.Packaging.props" Condition="Exists('packages\NuGet.Build.Packaging.0.2.2\build\NuGet.Build.Packaging.props')" />
   <Import Project=".\packages\NuGet.Build.Packaging.0.1.324\build\NuGet.Build.Packaging.props" Condition="Exists('.\packages\NuGet.Build.Packaging.0.1.324\build\NuGet.Build.Packaging.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -13,7 +13,7 @@
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
     <PackOnBuild>true</PackOnBuild>
     <PackageId>dannycabrera.GetiOSModel</PackageId>
-    <PackageVersion>1.4</PackageVersion>
+    <PackageVersion>1.5</PackageVersion>
     <Authors>Danny Cabrera, Jim Bennett</Authors>
     <PackageLicenseUrl>https://github.com/dannycabrera/Get-iOS-Model/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/dannycabrera/Get-iOS-Model</PackageProjectUrl>
@@ -21,7 +21,7 @@
     <PackageTags>Xamarin, iOS, Device, Hardware</PackageTags>
     <Title>Get iOS device model details for Xamarin</Title>
     <Description>Xamarin Helper library to get the name of the current iOS device.</Description>
-    <PackageReleaseNotes>Added new iPad 6 generation (9.7-inch 2018 model)</PackageReleaseNotes>
+    <PackageReleaseNotes>New iPhone models added iPhone Xs, iPhoneXs Mac and iPhone XR</PackageReleaseNotes>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -68,5 +68,5 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project=".\packages\NuGet.Build.Packaging.0.1.324\build\NuGet.Build.Packaging.targets" Condition="Exists('.\packages\NuGet.Build.Packaging.0.1.324\build\NuGet.Build.Packaging.targets')" />
-  <Import Project="packages\NuGet.Build.Packaging.0.2.0\build\NuGet.Build.Packaging.targets" Condition="Exists('packages\NuGet.Build.Packaging.0.2.0\build\NuGet.Build.Packaging.targets')" />
+  <Import Project="packages\NuGet.Build.Packaging.0.2.2\build\NuGet.Build.Packaging.targets" Condition="Exists('packages\NuGet.Build.Packaging.0.2.2\build\NuGet.Build.Packaging.targets')" />
 </Project>
