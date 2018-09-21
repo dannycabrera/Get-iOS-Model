@@ -21,7 +21,7 @@
     <PackageTags>Xamarin, iOS, Device, Hardware</PackageTags>
     <Title>Get iOS device model details for Xamarin</Title>
     <Description>Xamarin Helper library to get the name of the current iOS device.</Description>
-    <PackageReleaseNotes>New iPhone models added iPhone Xs, iPhoneXs Mac and iPhone XR</PackageReleaseNotes>
+    <PackageReleaseNotes>New iPhone models added iPhone Xs, iPhoneXs Max and iPhone XR</PackageReleaseNotes>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
