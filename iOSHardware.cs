@@ -168,6 +168,30 @@ namespace Xamarin.iOS
                 // Apple Tech specs: https://support.apple.com/kb/SP770
                 if (hardware == "iPhone10,3" || hardware == "iPhone10,6")
                     return "iPhone X";
+
+                // ************
+                // iPhone XR
+                // ************
+                // Model(s): A1984, A2105, A2106 & A2108
+                // Apple Tech specs: https://support.apple.com/kb/SP781
+                if (hardware == "iPhone11,8")
+                    return "iPhone XR";
+
+                // ************
+                // iPhone Xs Max
+                // ************
+                // Model(s): A1921, A2101, A2102 & A2104
+                // Apple Tech specs: https://support.apple.com/kb/SP780
+                if (hardware == "iPhone11,4" || hardware == "iPhone11,6")
+                    return "iPhone Xs Max";
+
+                // ************
+                // iPhone Xs
+                // ************
+                // Model(s): A1920, A2097, A2098 & A2100
+                // Apple Tech specs: https://support.apple.com/kb/SP779
+                if (hardware == "iPhone11,2")
+                    return "iPhone Xs";
             }
 
             if (hardware.StartsWith("iPod"))
