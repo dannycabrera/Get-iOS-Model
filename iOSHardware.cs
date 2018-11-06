@@ -178,20 +178,20 @@ namespace Xamarin.iOS
                     return "iPhone XR";
 
                 // ************
-                // iPhone Xs Max
+                // iPhone XS Max
                 // ************
                 // Model(s): A1921, A2101, A2102 & A2104
                 // Apple Tech specs: https://support.apple.com/kb/SP780
                 if (hardware == "iPhone11,4" || hardware == "iPhone11,6")
-                    return "iPhone Xs Max";
+                    return "iPhone XS Max";
 
                 // ************
-                // iPhone Xs
+                // iPhone XS
                 // ************
                 // Model(s): A1920, A2097, A2098 & A2100
                 // Apple Tech specs: https://support.apple.com/kb/SP779
                 if (hardware == "iPhone11,2")
-                    return "iPhone Xs";
+                    return "iPhone XS";
             }
 
             if (hardware.StartsWith("iPod"))
@@ -300,6 +300,28 @@ namespace Xamarin.iOS
                 if (hardware == "iPad3,6")
                     return "iPad 4 Wi-Fi + Cellular (MM)";
 
+				// ************
+                // iPad (9.7 inch - 5th generation)
+                // ************
+                // Apple Tech specs: https://support.apple.com/kb/SP751
+                // Model(s): A1822
+                if (hardware == "iPad6,11")
+                    return "iPad 5 Wi-Fi";
+                // Model(s): A1823
+                if (hardware == "iPad6,12")
+                    return "iPad 5 Wi-Fi + Cellular";
+
+                // ************
+                // iPad (9.7 inch - 6th generation 2018)
+                // ************
+                // Apple Tech specs: https://support.apple.com/kb/SP774
+                // Model(s): A1893
+                if (hardware == "iPad7,5")
+                    return "iPad 6 Wi-Fi";
+                // Model(s): A1954
+                if (hardware == "iPad7,6")
+                    return "iPad 6 Wi-Fi + Cellular";
+				
                 // ************
                 // iPad Air
                 // ************
@@ -323,51 +345,7 @@ namespace Xamarin.iOS
                     return "iPad Air 2";
                 // Model(s): A1567
                 if (hardware == "iPad5,4")
-                    return "iPad Air 2";
-
-                // ************
-                // iPad Pro (12.9 inch)
-                // ************
-                // Apple Tech specs: https://support.apple.com/kb/SP723
-                // Model(s): A1584 (Wi-Fi) 
-                if (hardware == "iPad6,7")
-                    return "iPad Pro";
-                // Model(s): A1652 (Wi-Fi + Cellular)
-                if (hardware == "iPad6,8")
-                    return "iPad Pro Wi-Fi + Cellular";
-
-                // ************
-                // iPad Pro (9.7 inch)
-                // ************
-                // Apple Tech specs: https://support.apple.com/kb/SP739
-                // Model(s): A1673
-                if (hardware == "iPad6,3")
-                    return "iPad Pro (9.7-inch)";
-                // Model(s): A1674, A1675 (Wi-Fi + Cellular)
-                if (hardware == "iPad6,4")
-                    return "iPad Pro (9.7-inch) Wi-Fi + Cellular";
-
-                // ************
-                // iPad Pro (12.9-inch) (2nd generation)
-                // ************
-                // Apple Tech specs: https://support.apple.com/kb/SP761
-                // Model(s): A1670
-                if (hardware == "iPad7,1")
-                    return "iPad Pro (12.9-inch) (2nd generation)";
-                // Model(s): A1671
-                if (hardware == "iPad7,2")
-                    return "iPad Pro (12.9-inch) (2nd generation) Wi-Fi + Cellular";
-
-                // ************
-                // iPad Pro (10.5-inch)
-                // ************
-                // Apple Tech specs: https://support.apple.com/kb/SP762
-                // Model(s): A1701
-                if (hardware == "iPad7,3")
-                    return "iPad Pro (10.5-inch)";
-                // Model(s): A1709
-                if (hardware == "iPad7,4")
-                    return "iPad Pro (10.5-inch) Wi-Fi + Cellular";
+                    return "iPad Air 2 Wi-Fi + Cellular";
 
                 // ************
                 // iPad mini
@@ -422,27 +400,71 @@ namespace Xamarin.iOS
                 if (hardware == "iPad5,2")
                     return "iPad mini 4 Wi-Fi + Cellular";
 
+				// ************
+                // iPad Pro (9.7 inch)
                 // ************
-                // iPad (9.7 inch - 5th generation)
-                // ************
-                // Apple Tech specs: https://support.apple.com/kb/SP751
-                // Model(s): A1822
-                if (hardware == "iPad6,11")
-                    return "iPad 5 Wi-Fi";
-                // Model(s): A1823
-                if (hardware == "iPad6,12")
-                    return "iPad 5 Wi-Fi + Cellular";
+                // Apple Tech specs: https://support.apple.com/kb/SP739
+                // Model(s): A1673
+                if (hardware == "iPad6,3")
+                    return "iPad Pro (9.7-inch)";
+                // Model(s): A1674, A1675 (Wi-Fi + Cellular)
+                if (hardware == "iPad6,4")
+                    return "iPad Pro (9.7-inch) Wi-Fi + Cellular";
 
                 // ************
-                // iPad (9.7 inch - 6th generation 2018)
+                // iPad Pro (10.5-inch)
                 // ************
-                // Apple Tech specs: https://support.apple.com/kb/SP774
-                // Model(s): A1893
-                if (hardware == "iPad7,5")
-                    return "iPad 6 Wi-Fi";
-                // Model(s): A1954
-                if (hardware == "iPad7,6")
-                    return "iPad 6 Wi-Fi + Cellular";
+                // Apple Tech specs: https://support.apple.com/kb/SP762
+                // Model(s): A1701
+                if (hardware == "iPad7,3")
+                    return "iPad Pro (10.5-inch)";
+                // Model(s): A1709, A1852 (China only)
+                if (hardware == "iPad7,4")
+                    return "iPad Pro (10.5-inch) Wi-Fi + Cellular";
+				
+				// ************
+                // iPad Pro 12.9-inch
+                // ************
+                // Apple Tech specs: https://support.apple.com/kb/SP723
+                // Model(s): A1584 (Wi-Fi) 
+                if (hardware == "iPad6,7")
+                    return "iPad Pro 12.9-inch";
+                // Model(s): A1652 (Wi-Fi + Cellular)
+                if (hardware == "iPad6,8")
+                    return "iPad Pro 12.9-inch Wi-Fi + Cellular";
+				
+				// ************
+                // iPad Pro 12.9-inch (2nd generation)
+                // ************
+                // Apple Tech specs: https://support.apple.com/kb/SP761
+                // Model(s): A1670
+                if (hardware == "iPad7,1")
+                    return "iPad Pro 12.9-inch (2nd generation)";
+                // Model(s): A1671, A1821 (China only)
+                if (hardware == "iPad7,2")
+                    return "iPad Pro 12.9-inch (2nd generation) Wi-Fi + Cellular";
+
+                // ************
+                // iPad Pro 12.9-inch (3rd generation)
+                // ************
+                // Apple Tech specs: https://support.apple.com/kb/SP785
+                // Model(s): A1876
+                if (hardware == "iPad8,5" || hardware == "iPad8,6")
+                    return "iPad Pro 12.9-inch (3rd generation)";
+                // Model(s): A1895, A1983 & A2014
+                if (hardware == "iPad8,7" || hardware == "iPad8,8")
+                    return "iPad Pro 12.9-inch (3rd generation Wi-Fi + Cellular)";
+
+                // ************
+                // iPad Pro 11-inch
+                // ************
+                // Apple Tech specs: https://support.apple.com/kb/SP784
+                // Model(s): A1980
+                if (hardware == "iPad8,1" || hardware == "iPad8,2")
+                    return " iPad Pro 11-inch";
+                // Model(s): A1934, A1979 & A2013
+                if (hardware == "iPad8,3" || hardware == "iPad8,4")
+                    return " iPad Pro 11-inch Wi-Fi + Cellular";
             }
 
             if (hardware == "i386" || hardware == "x86_64")
