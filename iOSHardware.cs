@@ -461,10 +461,10 @@ namespace Xamarin.iOS
                 // Apple Tech specs: https://support.apple.com/kb/SP784
                 // Model(s): A1980
                 if (hardware == "iPad8,1" || hardware == "iPad8,2")
-                    return " iPad Pro 11-inch";
+                    return "iPad Pro 11-inch";
                 // Model(s): A1934, A1979 & A2013
                 if (hardware == "iPad8,3" || hardware == "iPad8,4")
-                    return " iPad Pro 11-inch Wi-Fi + Cellular";
+                    return "iPad Pro 11-inch Wi-Fi + Cellular";
             }
 
             if (hardware == "i386" || hardware == "x86_64")
