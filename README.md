@@ -1,3 +1,5 @@
+![GetiOSModel Logo](https://github.com/dannycabrera/Get-iOS-Model/raw/master/Icons/GetiOSModel.png)
+
 Get-iOS-Model
 =============
 
