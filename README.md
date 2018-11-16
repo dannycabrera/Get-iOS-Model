@@ -8,6 +8,7 @@ Will keep repository updated as new devices become available.
 If you need an Android library check out my other repo https://github.com/dannycabrera/GetDroidModel.
 
 Updates:<br/>
+11/07/2018 - iPad Pro 11-inch whitespace character fix thabks to @adamzucchi<br/>
 11/06/2018 - Added new iPad models: iPad Pro 12.9-inch (3rd generation) and iPad Pro 11-inch<br/>
 09/21/2018 - Added new iPhone models: iPhone XR, iPhone Xs and iPhone Xs Max<br/>
 03/30/2018 - Added Apple Tech specs link for iPad 6th generation<br/>
@@ -55,4 +56,4 @@ Result: "iPhone 5C GSM"
 *******
 Thanks to:
 -------
-@sven-s, @manishkungwani, @jimbobbennett for their pull requests.
+@sven-s, @manishkungwani, @jimbobbennett and @adamzucchi for their pull requests.
