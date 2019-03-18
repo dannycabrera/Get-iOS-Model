@@ -7,7 +7,7 @@ Get the iOS model using the hw.machine string
 
 |  Package  |
 |:----------|
-|[![NuGet Badge MimeKit](https://buildstats.info/nuget/dannycabrera.GetiOSModel)](https://www.nuget.org/packages/dannycabrera.GetiOSModel)|
+|[![NuGet Badge GetiOSModel](https://buildstats.info/nuget/dannycabrera.GetiOSModel)](https://www.nuget.org/packages/dannycabrera.GetiOSModel)|
 
 *******
 Will keep repository updated as new devices become available.
