@@ -15,6 +15,7 @@ Will keep repository updated as new devices become available.
 If you need an Android library check out my other repo https://github.com/dannycabrera/GetDroidModel.
 
 Updates:<br/>
+03/27/2019 - Added 2019 iPad models: iPad mini 5 and iPad Air 3<br/>
 11/07/2018 - iPad Pro 11-inch whitespace character fix thanks to @adamzucchi<br/>
 11/06/2018 - Added new iPad models: iPad Pro 12.9-inch (3rd generation) and iPad Pro 11-inch<br/>
 09/21/2018 - Added new iPhone models: iPhone XR, iPhone Xs and iPhone Xs Max<br/>
