@@ -250,7 +250,7 @@ namespace Xamarin.iOS
                 // ************
                 // iPad
                 // ************
-                // Model(s): A1219 (WiFi) & A1337 (GSM)
+                // Model(s): A1219 (Wi-Fi) & A1337 (GSM)
                 // Apple Tech specs: https://support.apple.com/kb/SP580
                 if (hardware == "iPad1,1")
                     return "iPad";
@@ -261,7 +261,7 @@ namespace Xamarin.iOS
                 // Apple Tech specs: https://support.apple.com/kb/SP622
                 // Model(s): A1395
                 if (hardware == "iPad2,1")
-                    return "iPad 2 WiFi";
+                    return "iPad 2 Wi-Fi";
                 // Model(s): A1396
                 if (hardware == "iPad2,2")
                     return "iPad 2 GSM";
@@ -270,7 +270,7 @@ namespace Xamarin.iOS
                     return "iPad 2 CDMA";
                 // Model(s): A1395
                 if (hardware == "iPad2,4")
-                    return "iPad 2 Wifi";
+                    return "iPad 2 Wi-Fi";
 
                 // ************
                 // iPad 3
@@ -278,7 +278,7 @@ namespace Xamarin.iOS
                 // Apple Tech specs: https://support.apple.com/kb/SP647
                 // Model(s): A1416
                 if (hardware == "iPad3,1")
-                    return "iPad 3 WiFi";
+                    return "iPad 3 Wi-Fi";
                 // Model(s): A1403
                 if (hardware == "iPad3,2")
                     return "iPad 3 Wi-Fi + Cellular (VZ)";
@@ -292,7 +292,7 @@ namespace Xamarin.iOS
                 // Apple Tech specs: https://support.apple.com/kb/SP662
                 // Model(s): A1458
                 if (hardware == "iPad3,4")
-                    return "iPad 4 Wifi";
+                    return "iPad 4 Wi-Fi";
                 // Model(s): A1459
                 if (hardware == "iPad3,5")
                     return "iPad 4 Wi-Fi + Cellular";
@@ -328,7 +328,7 @@ namespace Xamarin.iOS
                 // Apple Tech specs: https://support.apple.com/kb/SP692
                 // Model(s): A1474
                 if (hardware == "iPad4,1")
-                    return "iPad Air Wifi";
+                    return "iPad Air Wi-Fi";
                 // Model(s): A1475
                 if (hardware == "iPad4,2")
                     return "iPad Air Wi-Fi + Cellular";
@@ -339,13 +339,24 @@ namespace Xamarin.iOS
                 // ************
                 // iPad Air 2
                 // ************
-                // Apple Tech specs: 
+                // Apple Tech specs: https://support.apple.com/kb/SP708
                 // Model(s): A1566
                 if (hardware == "iPad5,3")
-                    return "iPad Air 2";
+                    return "iPad Air 2 Wi-Fi";
                 // Model(s): A1567
                 if (hardware == "iPad5,4")
                     return "iPad Air 2 Wi-Fi + Cellular";
+
+                // ************
+                // iPad Air 3
+                // ************
+                // Apple Tech specs: https://support.apple.com/kb/SP787
+                // Model(s): A2152
+                if (hardware == "iPad11,3")
+                    return "iPad Air 3 Wi-Fi";
+                // Model(s): A2123, A2153, A2154
+                if (hardware == "iPad11,4")
+                    return "iPad Air 3 Wi-Fi + Cellular";
 
                 // ************
                 // iPad mini
@@ -353,7 +364,7 @@ namespace Xamarin.iOS
                 // Apple Tech specs: https://support.apple.com/kb/SP661
                 // Model(s): A1432
                 if (hardware == "iPad2,5")
-                    return "iPad mini Wifi";
+                    return "iPad mini Wi-Fi";
                 // Model(s): A1454
                 if (hardware == "iPad2,6")
                     return "iPad mini Wi-Fi + Cellular";
@@ -367,7 +378,7 @@ namespace Xamarin.iOS
                 // Apple Tech specs: https://support.apple.com/kb/SP693
                 // Model(s): A1489
                 if (hardware == "iPad4,4")
-                    return "iPad mini 2 Wifi";
+                    return "iPad mini 2 Wi-Fi";
                 // Model(s): A1490
                 if (hardware == "iPad4,5")
                     return "iPad mini 2 Wi-Fi + Cellular";
@@ -381,7 +392,7 @@ namespace Xamarin.iOS
                 // Apple Tech specs: https://support.apple.com/kb/SP709
                 // Model(s): A1599
                 if (hardware == "iPad4,7")
-                    return "iPad mini 3 Wifi";
+                    return "iPad mini 3 Wi-Fi";
                 // Model(s): A1600
                 if (hardware == "iPad4,8")
                     return "iPad mini 3 Wi-Fi + Cellular";
@@ -400,7 +411,18 @@ namespace Xamarin.iOS
                 if (hardware == "iPad5,2")
                     return "iPad mini 4 Wi-Fi + Cellular";
 
-				// ************
+                // ************
+                // iPad mini 5
+                // ************
+                // Apple Tech specs: https://support.apple.com/kb/SP788
+                // Model(s): A2133
+                if (hardware == "iPad11,1")
+                    return "iPad mini 5 Wi-Fi";
+                // Model(s): A2124, A2126, A2125
+                if (hardware == "iPad11,2")
+                    return "iPad mini 5 Wi-Fi + Cellular";
+
+                // ************
                 // iPad Pro (9.7 inch)
                 // ************
                 // Apple Tech specs: https://support.apple.com/kb/SP739
