@@ -13,7 +13,7 @@
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
     <PackOnBuild>true</PackOnBuild>
     <PackageId>dannycabrera.GetiOSModel</PackageId>
-    <PackageVersion>1.7</PackageVersion>
+    <PackageVersion>1.8</PackageVersion>
     <Authors>Danny Cabrera, Jim Bennett</Authors>
     <PackageLicenseUrl>https://github.com/dannycabrera/Get-iOS-Model/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/dannycabrera/Get-iOS-Model</PackageProjectUrl>
@@ -21,8 +21,9 @@
     <PackageTags>Xamarin, iOS, Device, Hardware</PackageTags>
     <Title>Get iOS device model details for Xamarin</Title>
     <Description>Xamarin Helper library to get the name of the current iOS device.</Description>
-    <PackageReleaseNotes>Added new iPad models: iPad Pro 12.9-inch (3rd generation) and iPad Pro 11-inch, v1.7 includes iPad Pro 11-inch whitespace character fix.</PackageReleaseNotes>
-    <ReleaseVersion>1.7</ReleaseVersion>
+    <PackageReleaseNotes>Added new iPad models: iPad Pro 12.9-inch (3rd generation) and iPad Pro 11-inch, v1.8 includes nuget package icon.</PackageReleaseNotes>
+    <ReleaseVersion>1.8</ReleaseVersion>
+    <PackageIconUrl>https://github.com/dannycabrera/Get-iOS-Model/raw/master/Icons/GetiOSModel.png</PackageIconUrl>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
