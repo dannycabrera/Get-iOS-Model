@@ -15,15 +15,16 @@
     <PackageId>dannycabrera.GetiOSModel</PackageId>
     <PackageVersion>1.10</PackageVersion>
     <Authors>Danny Cabrera, Jim Bennett</Authors>
-    <PackageLicenseUrl>https://github.com/dannycabrera/Get-iOS-Model/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/dannycabrera/Get-iOS-Model</PackageProjectUrl>
     <Summary>A Xamarin library to get the current iOS device details</Summary>
     <PackageTags>Xamarin, iOS, Device, Hardware</PackageTags>
-    <Title>Get iOS device model details for Xamarin</Title>
+    <Title>Get iOS device model details for Xamarin iOS</Title>
     <Description>Xamarin Helper library to get the name of the current iOS device.</Description>
     <PackageReleaseNotes>Added iPod touch 7th generation.</PackageReleaseNotes>
     <ReleaseVersion>1.10</ReleaseVersion>
     <PackageIconUrl>https://github.com/dannycabrera/Get-iOS-Model/raw/master/Icons/GetiOSModel.png</PackageIconUrl>
+    <Owners>Danny Cabrera</Owners>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
