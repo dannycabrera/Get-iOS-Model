@@ -24,7 +24,7 @@
     <ReleaseVersion>1.10</ReleaseVersion>
     <PackageIconUrl>https://github.com/dannycabrera/Get-iOS-Model/raw/master/Icons/GetiOSModel.png</PackageIconUrl>
     <Owners>Danny Cabrera</Owners>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -68,6 +68,7 @@
   <ItemGroup>
     <None Include="README.md" />
     <None Include="packages.config" />
+    <None Include="LICENSE.txt" Pack="true" PackagePath="$(PackageLicenseFile)"/>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project=".\packages\NuGet.Build.Packaging.0.1.324\build\NuGet.Build.Packaging.targets" Condition="Exists('.\packages\NuGet.Build.Packaging.0.1.324\build\NuGet.Build.Packaging.targets')" />
