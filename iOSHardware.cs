@@ -243,6 +243,14 @@ namespace Xamarin.iOS
                 // Apple Tech specs: (A1574) https://support.apple.com/kb/SP720 
                 if (hardware == "iPod7,1")
                     return "iPod touch 6G";
+				
+				// ************
+                // iPod touch 7G
+                // ************
+                // Model(s): A2178
+                // Apple Tech specs: (A21780) https://support.apple.com/kb/SP796
+                if (hardware == "iPod9,1")
+                    return "iPod touch 7G";
             }
 
             if (hardware.StartsWith("iPad"))
