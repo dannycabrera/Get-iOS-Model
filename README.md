@@ -15,6 +15,7 @@ Will keep repository updated as new devices become available.
 If you need an Android library check out my other repo https://github.com/dannycabrera/GetDroidModel.
 
 Updates:<br/>
+05/09/2019 - Added Apple Chip Type property<br/>
 06/01/2019 - Added iPod touch 7th generation<br/>
 03/27/2019 - Added 2019 iPad models: iPad mini 5 and iPad Air 3<br/>
 11/07/2018 - iPad Pro 11-inch whitespace character fix thanks to @adamzucchi<br/>
@@ -62,7 +63,13 @@ Console.WriteLine(Xamarin.iOS.DeviceHardware.Model);
 
 Result: "iPhone 5C GSM"
 
+```
+Console.WriteLine(Xamarin.iOS.DeviceHardware.ChipType);
+```
+
+Result: "A6"
+
 *******
 Thanks to:
 -------
-@sven-s, @manishkungwani, @jimbobbennett and @adamzucchi for their pull requests.
+@sven-s, @manishkungwani, @jimbobbennett, @adamzucchi and @follesoe for their pull requests.
