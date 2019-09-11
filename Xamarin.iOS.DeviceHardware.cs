@@ -5,8 +5,8 @@ using ObjCRuntime;
 
 namespace Xamarin.iOS
 {
-	[Preserve(AllMembers = true)]
-	public static class DeviceHardware
+    [Preserve(AllMembers = true)]
+    public static class DeviceHardware
     {
         private const string HardwareProperty = "hw.machine";
 
@@ -56,20 +56,38 @@ namespace Xamarin.iOS
             }
 
             return "Unknown";
-		}
+        }
 
         public static string Version => FindVersion();
+
+        private static iOSChipType ChipType
+        {
+            get
+            {
+                var v = Version;
+                if (IsSimulator(v))
+                {
+                    return _hardwareMapper.GetChipType(SimulatorModel);
+                }
+                return _hardwareMapper.GetChipType(v);
+            }
+        }
+
         public static string Model
         {
             get
             {
                 var v = Version;
-
-                if (v == "i386" || v == "x86_64")
-                    return _hardwareMapper.GetModel(NSProcessInfo.ProcessInfo.Environment["SIMULATOR_MODEL_IDENTIFIER"].ToString()) + " Simulator";
-                else
-                    return _hardwareMapper.GetModel(v);
+                if (IsSimulator(v))
+                {
+                    return _hardwareMapper.GetModel(SimulatorModel) + " Simulator";
+                }
+                return _hardwareMapper.GetModel(v);
             }
         }
+
+        private static bool IsSimulator(string v) => v == "i386" || v == "x86_64";
+
+        private static string SimulatorModel => NSProcessInfo.ProcessInfo.Environment["SIMULATOR_MODEL_IDENTIFIER"].ToString();
     }
 }

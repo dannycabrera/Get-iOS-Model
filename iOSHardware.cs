@@ -5,6 +5,16 @@ namespace Xamarin.iOS
     [Preserve(AllMembers = true)]
     class iOSHardware
     {
+        private readonly iOSChipTypeMap _chipTypeMap;
+
+        public iOSHardware()
+        {
+            _chipTypeMap = new iOSChipTypeMap();
+        }
+
+        public iOSChipType GetChipType(string hardware) =>
+            _chipTypeMap.GetChipType(hardware);
+
         public string GetModel(string hardware)
         {
             // https://support.apple.com/kb/HT3939
