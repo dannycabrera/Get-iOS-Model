@@ -44,6 +44,9 @@ namespace Xamarin.iOS
                 { "iPhone11,4", iOSChipType.A12Bionic }, // iPhone XS Max
                 { "iPhone11,6", iOSChipType.A12Bionic }, // iPhone XS Max
                 { "iPhone11,8", iOSChipType.A12Bionic }, // iPhone XR
+                { "iPhone12,1", iOSChipType.A13Bionic }, // iPhone 11
+                { "iPhone12,3", iOSChipType.A13Bionic }, // iPhone 11 Pro
+                { "iPhone12,5", iOSChipType.A13Bionic }, // iPhone 11 Pro Max
                 { "iPad1,1", iOSChipType.A4 }, // iPad
                 { "iPad2,1", iOSChipType.A5 }, // iPad 2 Wi-Fi
                 { "iPad2,2", iOSChipType.A5 }, // iPad 2 GSM
@@ -83,6 +86,8 @@ namespace Xamarin.iOS
                 { "iPad7,4", iOSChipType.A10XFusion }, // iPad Pro 10.5" Wi-Fi + Cellular
                 { "iPad7,5", iOSChipType.A10Fusion }, // iPad 9.7" 6th gen Wi-Fi
                 { "iPad7,6", iOSChipType.A10Fusion }, // iPad 9.7" 6th gen Wi-Fi + Cellular
+                { "iPad7,11", iOSChipType.A10Fusion }, // iPad 10.2" 7th gen Wi-Fi
+                { "iPad7,12", iOSChipType.A10Fusion }, // iPad 10.2" 7th gen Wi-Fi + Cellular
                 { "iPad8,1", iOSChipType.A12XBionic }, // iPad Pro 11" Wi-Fi
                 { "iPad8,2", iOSChipType.A12XBionic }, // iPad Pro 11" Wi-Fi
                 { "iPad8,3", iOSChipType.A12XBionic }, // iPad Pro 11" Wi-Fi + Cellular

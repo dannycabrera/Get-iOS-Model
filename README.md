@@ -15,29 +15,30 @@ Will keep repository updated as new devices become available.
 If you need an Android library check out my other repo https://github.com/dannycabrera/GetDroidModel.
 
 Updates:<br/>
-05/09/2019 - Added Apple Chip Type property<br/>
-06/01/2019 - Added iPod touch 7th generation<br/>
-03/27/2019 - Added 2019 iPad models: iPad mini 5 and iPad Air 3<br/>
-11/07/2018 - iPad Pro 11-inch whitespace character fix thanks to @adamzucchi<br/>
-11/06/2018 - Added new iPad models: iPad Pro 12.9-inch (3rd generation) and iPad Pro 11-inch<br/>
-09/21/2018 - Added new iPhone models: iPhone XR, iPhone Xs and iPhone Xs Max<br/>
-03/30/2018 - Added Apple Tech specs link for iPad 6th generation<br/>
-03/28/2018 - Added new iPad 6th generation (2018 9.7-inch model)<br/>
-09/29/2017 - Model info now returned on simulators & updated Nuget to v1.3.<br/>
-09/19/2017 - Added iPhone 8, 8 Plus and X. Also updating NuGet to v1.2.<br/>
-09/14/2017 - NuGet updated to v1.1<br/>
-07/06/2017 - Adding NuGet<br/>
-06/27/2017 - Added iPad Pro (12.9-inch 2nd generation) and iPad Pro (10.5-inch)<br/>
-03/21/2017 - Added new iPad 5th generation<br/>
-10/26/2016 - corrected/added missing iPad6,4<br/>
-09/12/2016 - added iPhone 7 and 7 Plus<br/>
-03/30/2016 - added iPad Pro (9.7-inch) and iPhone SE<br/>
-01/19/2016 - added iPad Pro<br/>
-09/28/2015 - added iPhone 6s & iPhone 6s Plus<br/>
-07/15/2015 - added iPod 6th Generation<br/>
-10/20/2014 - added iPad Air 2 & iPad mini 3<br/>
-09/17/2014 - added iPhone 6 and 6 Plus<br/>
-01/08/2014 - added iPad Mini Retina and iPad Air<br/>
+20190919 - Added hardware strings and chip types for new iPhone 11 models and iPad (7th generation) models<br/>
+20190905 - Added Apple Chip Type property<br/>
+20190601 - Added iPod touch 7th generation<br/>
+20190327 - Added 2019 iPad models: iPad mini 5 and iPad Air 3<br/>
+20181107 - iPad Pro 11-inch whitespace character fix thanks to @adamzucchi<br/>
+20181106 - Added new iPad models: iPad Pro 12.9-inch (3rd generation) and iPad Pro 11-inch<br/>
+20180921 - Added new iPhone models: iPhone XR, iPhone Xs and iPhone Xs Max<br/>
+20180330 - Added Apple Tech specs link for iPad 6th generation<br/>
+20180328 - Added new iPad 6th generation (2018 9.7-inch model)<br/>
+20170929 - Model info now returned on simulators & updated Nuget to v1.3.<br/>
+20170919 - Added iPhone 8, 8 Plus and X. Also updating NuGet to v1.2.<br/>
+20170914 - NuGet updated to v1.1<br/>
+20170706 - Adding NuGet<br/>
+20170627 - Added iPad Pro (12.9-inch 2nd generation) and iPad Pro (10.5-inch)<br/>
+20170321 - Added new iPad 5th generation<br/>
+20161026 - corrected/added missing iPad6,4<br/>
+20160912 - added iPhone 7 and 7 Plus<br/>
+20160330 - added iPad Pro (9.7-inch) and iPhone SE<br/>
+20160119 - added iPad Pro<br/>
+20150928 - added iPhone 6s & iPhone 6s Plus<br/>
+20150715 - added iPod 6th Generation<br/>
+20141020 - added iPad Air 2 & iPad mini 3<br/>
+20140917 - added iPhone 6 and 6 Plus<br/>
+20140108 - added iPad Mini Retina and iPad Air<br/>
 *******
 
 ## Install

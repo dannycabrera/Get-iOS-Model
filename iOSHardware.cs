@@ -202,6 +202,30 @@ namespace Xamarin.iOS
                 // Apple Tech specs: https://support.apple.com/kb/SP779
                 if (hardware == "iPhone11,2")
                     return "iPhone XS";
+
+                // ************
+                // iPhone 11
+                // ************
+                // Model(s): A2111, A2221 & A2223
+                // Apple Tech specs: https://support.apple.com/kb/SP804
+                if (hardware == "iPhone12,1")
+                    return "iPhone 11";
+
+                // ************
+                // iPhone 11 Pro
+                // ************
+                // Model(s): A2160, A2215 & A2217
+                // Apple Tech specs: https://support.apple.com/kb/SP805
+                if (hardware == "iPhone12,3")
+                    return "iPhone 11 Pro";
+
+                // ************
+                // iPhone 11 Pro Max
+                // ************
+                // Model(s): A2161, A2218 & A2220 
+                // Apple Tech specs: https://support.apple.com/kb/SP806
+                if (hardware == "iPhone12,5")
+                    return "iPhone 11 Pro Max";
             }
 
             if (hardware.StartsWith("iPod"))
@@ -339,7 +363,18 @@ namespace Xamarin.iOS
                 // Model(s): A1954
                 if (hardware == "iPad7,6")
                     return "iPad 6 Wi-Fi + Cellular";
-				
+
+                // ************
+                // iPad (10.2 inch - 7th generation 2019)
+                // ************
+                // Apple Tech specs: https://support.apple.com/kb/
+                // Model(s): A2197
+                if (hardware == "iPad7,11")
+                    return "iPad 7 Wi-Fi";
+                // Model(s): A2198, A2199 & A2200
+                if (hardware == "iPad7,12")
+                    return "iPad 7 Wi-Fi + Cellular";
+
                 // ************
                 // iPad Air
                 // ************

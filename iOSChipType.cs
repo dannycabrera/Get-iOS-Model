@@ -17,6 +17,7 @@
         A10XFusion,
         A11Bionic,
         A12Bionic,
-        A12XBionic
+        A12XBionic,
+        A13Bionic
     }
 }
