@@ -277,8 +277,8 @@ namespace Xamarin.iOS
                 // Apple Tech specs: (A1574) https://support.apple.com/kb/SP720 
                 if (hardware == "iPod7,1")
                     return "iPod touch 6G";
-				
-				// ************
+
+                // ************
                 // iPod touch 7G
                 // ************
                 // Model(s): A2178
@@ -342,7 +342,7 @@ namespace Xamarin.iOS
                 if (hardware == "iPad3,6")
                     return "iPad 4 Wi-Fi + Cellular (MM)";
 
-				// ************
+                // ************
                 // iPad (9.7 inch - 5th generation)
                 // ************
                 // Apple Tech specs: https://support.apple.com/kb/SP751
@@ -496,8 +496,8 @@ namespace Xamarin.iOS
                 // Model(s): A1709, A1852 (China only)
                 if (hardware == "iPad7,4")
                     return "iPad Pro (10.5-inch) Wi-Fi + Cellular";
-				
-				// ************
+
+                // ************
                 // iPad Pro 12.9-inch
                 // ************
                 // Apple Tech specs: https://support.apple.com/kb/SP723
@@ -507,8 +507,8 @@ namespace Xamarin.iOS
                 // Model(s): A1652 (Wi-Fi + Cellular)
                 if (hardware == "iPad6,8")
                     return "iPad Pro 12.9-inch Wi-Fi + Cellular";
-				
-				// ************
+
+                // ************
                 // iPad Pro 12.9-inch (2nd generation)
                 // ************
                 // Apple Tech specs: https://support.apple.com/kb/SP761
@@ -531,6 +531,17 @@ namespace Xamarin.iOS
                     return "iPad Pro 12.9-inch (3rd generation Wi-Fi + Cellular)";
 
                 // ************
+                // iPad Pro 12.9-inch (4rd generation)
+                // ************
+                // Apple Tech specs: https://support.apple.com/kb/SP815
+                // Model(s): A2229 (Wi-Fi)
+                if (hardware == "iPad8,11")
+                    return "iPad Pro 12.9-inch (4th generation)";
+                // Model(s): A2069, A2232 & A2233 (Wi-Fi + Cellular)
+                if (hardware == "iPad8,12")
+                    return "iPad Pro 12.9-inch (4th generation Wi-Fi + Cellular)";
+
+                // ************
                 // iPad Pro 11-inch
                 // ************
                 // Apple Tech specs: https://support.apple.com/kb/SP784
@@ -540,6 +551,17 @@ namespace Xamarin.iOS
                 // Model(s): A1934, A1979 & A2013
                 if (hardware == "iPad8,3" || hardware == "iPad8,4")
                     return "iPad Pro 11-inch Wi-Fi + Cellular";
+
+                // ************
+                // iPad Pro 11-inch (2nd generation)
+                // ************
+                // Apple Tech specs: https://support.apple.com/kb/SP814
+                // Model(s): A2228 (Wi-Fi)
+                if (hardware == "iPad8,9")
+                    return "iPad Pro 11-inch (2nd generation)";
+                // Model(s): A2068, A2230 & A2231 (Wi-Fi + Cellular)
+                if (hardware == "iPad8,10")
+                    return "iPad Pro 11-inch (2nd generation) Wi-Fi + Cellular";
             }
 
             if (hardware == "i386" || hardware == "x86_64")

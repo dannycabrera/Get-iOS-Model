@@ -92,10 +92,14 @@ namespace Xamarin.iOS
                 { "iPad8,2", iOSChipType.A12XBionic }, // iPad Pro 11" Wi-Fi
                 { "iPad8,3", iOSChipType.A12XBionic }, // iPad Pro 11" Wi-Fi + Cellular
                 { "iPad8,4", iOSChipType.A12XBionic }, // iPad Pro 11" Wi-Fi + Cellular
+                { "iPad8,9", iOSChipType.A12ZBionic }, // iPad Pro 11-inch (2nd generation) Wi-Fi
+                { "iPad8,10", iOSChipType.A12ZBionic }, // iPad Pro 11-inch (2nd generation) Wi-Fi + Cellular
                 { "iPad8,5", iOSChipType.A12XBionic }, // iPad Pro 12.9" 3nd gen Wi-Fi
                 { "iPad8,6", iOSChipType.A12XBionic }, // iPad Pro 12.9" 3nd gen Wi-Fi
                 { "iPad8,7", iOSChipType.A12XBionic }, // iPad Pro 12.9" 3nd gen Wi-Fi + Cellular
                 { "iPad8,8", iOSChipType.A12XBionic }, // iPad Pro 12.9" 3nd gen Wi-Fi + Cellular
+                { "iPad8,11", iOSChipType.A12ZBionic }, // iPad Pro 12.9" 4th gen Wi-Fi
+                { "iPad8,12", iOSChipType.A12ZBionic }, // iPad Pro 12.9" 4th gen Wi-Fi + Cellular
                 { "iPad11,1", iOSChipType.A12Bionic }, // iPad mini 5 Wi-Fi
                 { "iPad11,2", iOSChipType.A12Bionic }, // iPad mini 5 Wi-Fi + Cellular
                 { "iPad11,3", iOSChipType.A12Bionic }, // iPad Air 3rd gen Wi-Fi
