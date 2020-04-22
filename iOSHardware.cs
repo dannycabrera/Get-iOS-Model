@@ -138,6 +138,14 @@ namespace Xamarin.iOS
                 // Apple Tech specs: https://support.apple.com/kb/SP738
                 if (hardware == "iPhone8,4")
                     return "iPhone SE";
+				
+				// ************
+				// iPhone SE (2nd generation)
+                // ************
+                // Model(s): A2296, A2275, A2297 & A2298
+                // Apple Tech specs: https://support.apple.com/kb/XXXXX
+                if (hardware == "iPhone12,8")
+                    return "iPhone SE (2nd generation)";
 
                 // ************
                 // iPhone 7

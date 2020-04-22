@@ -30,6 +30,7 @@ namespace Xamarin.iOS
                 { "iPhone8,1", iOSChipType.A9 }, // iPhone 6S,
                 { "iPhone8,2", iOSChipType.A9 }, // iPhone 6S Plus,
                 { "iPhone8,4", iOSChipType.A9 }, // iPhone SE,
+				{ "iPhone12,8", iOSChipType.A13Bionic }, // iPhone SE (2nd),
                 { "iPhone9,1", iOSChipType.A10Fusion }, // iPhone 7
                 { "iPhone9,2", iOSChipType.A10Fusion }, // iPhone 7 Plus
                 { "iPhone9,3", iOSChipType.A10Fusion }, // iPhone 7
