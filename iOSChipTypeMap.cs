@@ -48,6 +48,10 @@ namespace Xamarin.iOS
                 { "iPhone12,1", iOSChipType.A13Bionic }, // iPhone 11
                 { "iPhone12,3", iOSChipType.A13Bionic }, // iPhone 11 Pro
                 { "iPhone12,5", iOSChipType.A13Bionic }, // iPhone 11 Pro Max
+                { "iPhone13,1", iOSChipType.A14Bionic }, // iPhone 12 mini
+                { "iPhone13,2", iOSChipType.A14Bionic }, // iPhone 12
+                { "iPhone13,3", iOSChipType.A14Bionic }, // iPhone 12 Pro
+                { "iPhone13,4", iOSChipType.A14Bionic }, // iPhone 12 Pro Max
                 { "iPad1,1", iOSChipType.A4 }, // iPad
                 { "iPad2,1", iOSChipType.A5 }, // iPad 2 Wi-Fi
                 { "iPad2,2", iOSChipType.A5 }, // iPad 2 GSM
@@ -115,7 +119,6 @@ namespace Xamarin.iOS
             };
         }
 
-        public iOSChipType GetChipType(string hardware) =>
-            modelChipMap.ContainsKey(hardware) ? modelChipMap[hardware] : iOSChipType.Unknown;
+        public iOSChipType GetChipType(string hardware) => modelChipMap.ContainsKey(hardware) ? modelChipMap[hardware] : iOSChipType.Unknown;
     }
 }
