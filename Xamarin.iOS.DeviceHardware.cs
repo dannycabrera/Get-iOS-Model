@@ -60,7 +60,7 @@ namespace Xamarin.iOS
 
         public static string Version => FindVersion();
 
-        private static iOSChipType ChipType
+        public static iOSChipType ChipType
         {
             get
             {

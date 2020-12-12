@@ -12,15 +12,15 @@
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
     <PackOnBuild>true</PackOnBuild>
     <PackageId>dannycabrera.GetiOSModel</PackageId>
-    <PackageVersion>1.15</PackageVersion>
+    <PackageVersion>1.16</PackageVersion>
     <Authors>Danny Cabrera, Jim Bennett</Authors>
     <PackageProjectUrl>https://github.com/dannycabrera/Get-iOS-Model</PackageProjectUrl>
     <Summary>A Xamarin library to get the current iOS device details</Summary>
     <PackageTags>Xamarin, iOS, Device, Hardware</PackageTags>
     <Title>Get iOS device model and chip type details for Xamarin iOS</Title>
     <Description>Xamarin Helper library to get the name and chip type of the current iOS device.</Description>
-    <PackageReleaseNotes>Added new iPhone SE (2nd generation)</PackageReleaseNotes>
-    <ReleaseVersion>1.15</ReleaseVersion>
+    <PackageReleaseNotes>Added latest iPhone and iPad models</PackageReleaseNotes>
+    <ReleaseVersion>1.16</ReleaseVersion>
     <PackageIconUrl>https://github.com/dannycabrera/Get-iOS-Model/raw/master/Icons/GetiOSModel.png</PackageIconUrl>
     <Owners>Danny Cabrera</Owners>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
@@ -41,6 +41,7 @@
     <MtouchProfiling>true</MtouchProfiling>
     <IOSDebuggerPort>26861</IOSDebuggerPort>
     <DisableExtraReferences>true</DisableExtraReferences>
+    <MtouchLink>SdkOnly</MtouchLink>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>none</DebugType>

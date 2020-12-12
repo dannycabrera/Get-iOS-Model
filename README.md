@@ -15,6 +15,7 @@ Will keep repository updated as new devices become available.
 If you need an Android library check out my other repo https://github.com/dannycabrera/GetDroidModel.
 
 Updates:<br/>
+20201212 - Added latest iPad and iPhone models<br/>
 20200404 - Added iPhone SE (2nd generation)<br/>
 20200327 - Added new iPad models iPad Pro 11-inch (2nd generation) and iPad Pro 12.9-inch (4th generation)<br/>
 20190919 - Added hardware strings and chip types for new iPhone 11 models and iPad (7th generation) models<br/>
