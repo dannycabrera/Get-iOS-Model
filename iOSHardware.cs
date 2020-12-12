@@ -28,6 +28,8 @@ namespace Xamarin.iOS
                         return "iPhone 12 Pro";
                     case "iPhone13,4":
                         return "iPhone 12 Pro Max";
+                    case "iPhone12,8":
+                        return "iPhone SE (2nd generation)";
                     case "iPhone12,5":
                         return "iPhone 11 Pro Max";
                     case "iPhone12,3":
@@ -56,8 +58,6 @@ namespace Xamarin.iOS
                     case "iPhone9,1":
                     case "iPhone9,3":
                         return "iPhone 7";
-                    case "iPhone12,8":
-                        return "iPhone SE (2nd generation)";
                     case "iPhone8,4":
                         return "iPhone SE";
                     case "iPhone8,2":
