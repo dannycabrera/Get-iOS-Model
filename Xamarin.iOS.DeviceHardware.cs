@@ -58,7 +58,7 @@ namespace Xamarin.iOS
             return "Unknown";
         }
 
-        public static string Version => FindVersion();
+        public static string Version => IsiOSAppOnMac() ? "mac" : FindVersion();
 
         public static iOSChipType ChipType
         {
