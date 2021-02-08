@@ -65,11 +65,7 @@ namespace Xamarin.iOS
             get
             {
                 var v = Version;
-                if (IsiOSAppOnMac())
-                {
-                    return iOSChipType.AppleSiliconMac;
-                }
-                else if (IsSimulator(v))
+                if (IsSimulator(v))
                 {
                     return _hardwareMapper.GetChipType(SimulatorModel);
                 }
@@ -82,11 +78,7 @@ namespace Xamarin.iOS
             get
             {
                 var v = Version;
-                if (IsiOSAppOnMac())
-                {
-                    return "Mac";
-                }
-                else if (IsSimulator(v))
+                if (IsSimulator(v))
                 {
                     return _hardwareMapper.GetModel(SimulatorModel) + " Simulator";
                 }

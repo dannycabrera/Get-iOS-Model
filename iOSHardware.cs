@@ -249,6 +249,9 @@ namespace Xamarin.iOS
             if (hardware == "i386" || hardware == "x86_64")
                 return "Simulator";
 
+            if (hardware == "mac")
+                return "Mac";
+
             return (hardware == "" ? "Unknown" : hardware);
         }
     }
