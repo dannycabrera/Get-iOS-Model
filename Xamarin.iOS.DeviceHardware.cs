@@ -58,7 +58,7 @@ namespace Xamarin.iOS
             return "Unknown";
         }
 
-        public static string Version => FindVersion();
+        public static string Version => IsiOSAppOnMac() ? "mac" : FindVersion();
 
         public static iOSChipType ChipType
         {
@@ -85,6 +85,9 @@ namespace Xamarin.iOS
                 return _hardwareMapper.GetModel(v);
             }
         }
+
+        private static bool IsiOSAppOnMac() =>
+            UIKit.UIDevice.CurrentDevice.CheckSystemVersion(14, 0) && NSProcessInfo.ProcessInfo.IsiOSApplicationOnMac;
 
         private static bool IsSimulator(string v) => v == "i386" || v == "x86_64";
 
