@@ -67,7 +67,7 @@ namespace Xamarin.iOS
                 var v = Version;
                 if (IsiOSAppOnMac())
                 {
-                    return iOSChipType.M1;
+                    return iOSChipType.AppleSiliconMac;
                 }
                 else if (IsSimulator(v))
                 {
