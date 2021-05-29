@@ -121,6 +121,22 @@ namespace Xamarin.iOS
             {
                 switch (hardware)
                 {
+                    case "iPad13,11":
+                        return "iPad Pro (12.9-inch) (5th generation) Wi-Fi + Cellular";
+                    case "iPad13,10":
+                        return "iPad Pro (12.9-inch) (5th generation) Wi-Fi + Cellular";
+                    case "iPad13,9":
+                        return "iPad Pro (12.9-inch) (5th generation) Wi-Fi";
+                    case "iPad13,8":
+                        return "iPad Pro (12.9-inch) (5th generation) Wi-Fi";
+                    case "iPad13,7":
+                        return "iPad Pro (11-inch) (3rd generation) Wi-Fi + Cellular";
+                    case "iPad13,6":
+                        return "iPad Pro (11-inch) (3rd generation) Wi-Fi + Cellular";
+                    case "iPad13,5":
+                        return "iPad Pro (11-inch) (3rd generation) Wi-Fi";
+                    case "iPad13,4":
+                        return "iPad Pro (11-inch) (3rd generation) Wi-Fi";
                     case "iPad13,2":
                         return "iPad Air (4th generation) Wi-Fi + Cellular";
                     case "iPad13,1":
