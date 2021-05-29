@@ -109,6 +109,18 @@ namespace Xamarin.iOS
                 { "iPad11,2", iOSChipType.A12Bionic }, // iPad mini 5 Wi-Fi + Cellular
                 { "iPad11,3", iOSChipType.A12Bionic }, // iPad Air 3rd gen Wi-Fi
                 { "iPad11,4", iOSChipType.A12Bionic }, // iPad Air 3rd gen Wi-Fi + Cellular
+                { "iPad11,6", iOSChipType.A12Bionic }, // iPad (8th Generation) Wi-Fi
+                { "iPad11,7", iOSChipType.A12Bionic }, // iPad (8th Generation) Wi-Fi + Cellular
+                { "iPad13,1", iOSChipType.A14Bionic }, // iPad Air (4th generation) Wi-Fi
+                { "iPad13,2", iOSChipType.A14Bionic }, // iPad Air (4th generation) Wi-Fi + Cellular
+                { "iPad13,4", iOSChipType.M1 }, // iPad Pro (11-inch) (3rd generation) Wi-Fi
+                { "iPad13,5", iOSChipType.M1 }, // iPad Pro (11-inch) (3rd generation) Wi-Fi
+                { "iPad13,6", iOSChipType.M1 }, // iPad Pro (11-inch) (3rd generation) Wi-Fi + Cellular
+                { "iPad13,7", iOSChipType.M1 }, // iPad Pro (11-inch) (3rd generation) Wi-Fi + Cellular
+                { "iPad13,8", iOSChipType.M1 }, // iPad Pro (12.9-inch) (5th generation) Wi-Fi
+                { "iPad13,9", iOSChipType.M1 }, // iPad Pro (12.9-inch) (5th generation) Wi-Fi
+                { "iPad13,10", iOSChipType.M1 }, // iPad Pro (12.9-inch) (5th generation) Wi-Fi + Cellular
+                { "iPad13,11", iOSChipType.M1 }, // iPad Pro (12.9-inch) (5th generation) Wi-Fi + Cellular
                 { "iPod1,1", iOSChipType.A4 }, // iPod Touch
                 { "iPod2,1", iOSChipType.A4 }, // iPod Touch 2st gen
                 { "iPod3,1", iOSChipType.A4 }, // iPod Touch 3rd gen
