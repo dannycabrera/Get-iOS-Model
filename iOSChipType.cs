@@ -21,6 +21,7 @@
         A12ZBionic,
         A13Bionic,
         A14Bionic,
+        A15Bionic,
         M1
     }
 }
