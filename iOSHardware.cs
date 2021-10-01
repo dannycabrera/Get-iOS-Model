@@ -20,6 +20,14 @@ namespace Xamarin.iOS
             {
                 switch (hardware)
                 {
+                    case "iPhone14,2":
+                        return "iPhone 13 Pro";
+                    case "iPhone14,3":
+                        return "iPhone 13 Pro Max";
+                    case "iPhone14,4":
+                        return "iPhone 13 mini";
+                    case "iPhone14,5":
+                        return "iPhone 13";
                     case "iPhone13,1":
                         return "iPhone 12 mini";
                     case "iPhone13,2":
@@ -121,10 +129,34 @@ namespace Xamarin.iOS
             {
                 switch (hardware)
                 {
+                    case "iPad14,2":
+                        return "iPad mini (6th generation) Wi-FI + Cellular";
+                    case "iPad14,1":
+                        return "iPad mini (6th generation) Wi-FI";
+                    case "iPad13,11":
+                        return "iPad Pro (12.9-inch) (5th generation) Wi-Fi + Cellular";
+                    case "iPad13,10":
+                        return "iPad Pro (12.9-inch) (5th generation) Wi-Fi + Cellular";
+                    case "iPad13,9":
+                        return "iPad Pro (12.9-inch) (5th generation) Wi-Fi";
+                    case "iPad13,8":
+                        return "iPad Pro (12.9-inch) (5th generation) Wi-Fi";
+                    case "iPad13,7":
+                        return "iPad Pro (11-inch) (3rd generation) Wi-Fi + Cellular";
+                    case "iPad13,6":
+                        return "iPad Pro (11-inch) (3rd generation) Wi-Fi + Cellular";
+                    case "iPad13,5":
+                        return "iPad Pro (11-inch) (3rd generation) Wi-Fi";
+                    case "iPad13,4":
+                        return "iPad Pro (11-inch) (3rd generation) Wi-Fi";
                     case "iPad13,2":
                         return "iPad Air (4th generation) Wi-Fi + Cellular";
                     case "iPad13,1":
                         return "iPad Air (4th generation) Wi-Fi";
+                    case "iPad12,2":
+                        return "iPad (9th Generation) Wi-Fi + Cellular";
+                    case "iPad12,1":
+                        return "iPad (9th generation) Wi-Fi";
                     case "iPad11,7":
                         return "iPad (8th Generation) Wi-Fi + Cellular";
                     case "iPad11,6":

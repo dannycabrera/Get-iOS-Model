@@ -15,6 +15,7 @@ Will keep repository updated as new devices become available.
 If you need an Android library check out my other repo https://github.com/dannycabrera/GetDroidModel.
 
 Updates:<br/>
+20210529 - Added new iPad models: iPad Pro (11-inch) (3rd generation) and iPad Pro (12.9-inch) (5th generation), corrected/added missing from iPad11,6 to iPad13,2's chip name.<br/>
 20201212 - Added latest iPad and iPhone models<br/>
 20200404 - Added iPhone SE (2nd generation)<br/>
 20200327 - Added new iPad models iPad Pro 11-inch (2nd generation) and iPad Pro 12.9-inch (4th generation)<br/>
@@ -76,4 +77,4 @@ Result: "A6"
 *******
 Thanks to:
 -------
-@sven-s, @manishkungwani, @jimbobbennett, @adamzucchi and @follesoe for their pull requests.
+@sven-s, @manishkungwani, @jimbobbennett, @adamzucchi, @follesoe and @CoreNion for their pull requests.
