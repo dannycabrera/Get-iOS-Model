@@ -22,6 +22,7 @@
         A13Bionic,
         A14Bionic,
         A15Bionic,
-        AppleSiliconMac
+        AppleSiliconMac,
+        M1
     }
 }

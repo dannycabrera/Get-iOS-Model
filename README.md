@@ -12,9 +12,8 @@ Get the iOS model using the hw.machine string
 *******
 Will keep repository updated as new devices become available.
 
-If you need an Android library check out my other repo https://github.com/dannycabrera/GetDroidModel.
-
 Updates:<br/>
+20211001 - Added new iPhone 13 models and updated 2021 iPad models<br/>
 20210529 - Added new iPad models: iPad Pro (11-inch) (3rd generation) and iPad Pro (12.9-inch) (5th generation), corrected/added missing from iPad11,6 to iPad13,2's chip name.<br/>
 20201212 - Added latest iPad and iPhone models<br/>
 20200404 - Added iPhone SE (2nd generation)<br/>

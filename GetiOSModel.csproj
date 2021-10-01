@@ -12,7 +12,7 @@
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
     <PackOnBuild>true</PackOnBuild>
     <PackageId>dannycabrera.GetiOSModel</PackageId>
-    <PackageVersion>1.16</PackageVersion>
+    <PackageVersion>1.17</PackageVersion>
     <Authors>Danny Cabrera, Jim Bennett</Authors>
     <PackageProjectUrl>https://github.com/dannycabrera/Get-iOS-Model</PackageProjectUrl>
     <Summary>A Xamarin library to get the current iOS device details</Summary>
@@ -20,7 +20,7 @@
     <Title>Get iOS device model and chip type details for Xamarin iOS</Title>
     <Description>Xamarin Helper library to get the name and chip type of the current iOS device.</Description>
     <PackageReleaseNotes>Added latest iPhone and iPad models</PackageReleaseNotes>
-    <ReleaseVersion>1.16</ReleaseVersion>
+    <ReleaseVersion>1.17</ReleaseVersion>
     <PackageIconUrl>https://github.com/dannycabrera/Get-iOS-Model/raw/master/Icons/GetiOSModel.png</PackageIconUrl>
     <Owners>Danny Cabrera</Owners>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
