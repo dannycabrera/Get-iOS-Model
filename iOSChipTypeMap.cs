@@ -52,6 +52,10 @@ namespace Xamarin.iOS
                 { "iPhone13,2", iOSChipType.A14Bionic }, // iPhone 12
                 { "iPhone13,3", iOSChipType.A14Bionic }, // iPhone 12 Pro
                 { "iPhone13,4", iOSChipType.A14Bionic }, // iPhone 12 Pro Max
+                { "iPhone14,2", iOSChipType.A15Bionic }, // iPhone 13 Pro
+                { "iPhone14,3", iOSChipType.A15Bionic }, // iPhone 13 Pro Max
+                { "iPhone14,4", iOSChipType.A15Bionic }, // iPhone 13 mini
+                { "iPhone14,5", iOSChipType.A15Bionic }, // iPhone 13
                 { "iPad1,1", iOSChipType.A4 }, // iPad
                 { "iPad2,1", iOSChipType.A5 }, // iPad 2 Wi-Fi
                 { "iPad2,2", iOSChipType.A5 }, // iPad 2 GSM
@@ -109,6 +113,22 @@ namespace Xamarin.iOS
                 { "iPad11,2", iOSChipType.A12Bionic }, // iPad mini 5 Wi-Fi + Cellular
                 { "iPad11,3", iOSChipType.A12Bionic }, // iPad Air 3rd gen Wi-Fi
                 { "iPad11,4", iOSChipType.A12Bionic }, // iPad Air 3rd gen Wi-Fi + Cellular
+                { "iPad11,6", iOSChipType.A12Bionic }, // iPad (8th Generation) Wi-Fi
+                { "iPad11,7", iOSChipType.A12Bionic }, // iPad (8th Generation) Wi-Fi + Cellular
+                { "iPad12,1", iOSChipType.A13Bionic }, // iPad (9th Generation) Wi-Fi
+                { "iPad12,2", iOSChipType.A13Bionic }, // iPad (9th Generation) Wi-Fi + Cellular
+                { "iPad13,1", iOSChipType.A14Bionic }, // iPad Air (4th generation) Wi-Fi
+                { "iPad13,2", iOSChipType.A14Bionic }, // iPad Air (4th generation) Wi-Fi + Cellular
+                { "iPad13,4", iOSChipType.M1 }, // iPad Pro (11-inch) (3rd generation) Wi-Fi
+                { "iPad13,5", iOSChipType.M1 }, // iPad Pro (11-inch) (3rd generation) Wi-Fi
+                { "iPad13,6", iOSChipType.M1 }, // iPad Pro (11-inch) (3rd generation) Wi-Fi + Cellular
+                { "iPad13,7", iOSChipType.M1 }, // iPad Pro (11-inch) (3rd generation) Wi-Fi + Cellular
+                { "iPad13,8", iOSChipType.M1 }, // iPad Pro (12.9-inch) (5th generation) Wi-Fi
+                { "iPad13,9", iOSChipType.M1 }, // iPad Pro (12.9-inch) (5th generation) Wi-Fi
+                { "iPad13,10", iOSChipType.M1 }, // iPad Pro (12.9-inch) (5th generation) Wi-Fi + Cellular
+                { "iPad13,11", iOSChipType.M1 }, // iPad Pro (12.9-inch) (5th generation) Wi-Fi + Cellular
+                { "iPad14,1", iOSChipType.A15Bionic }, // iPad mini 5 Wi-Fi
+                { "iPad14,2", iOSChipType.A15Bionic }, // iPad mini 5 Wi-Fi + Cellular
                 { "iPod1,1", iOSChipType.A4 }, // iPod Touch
                 { "iPod2,1", iOSChipType.A4 }, // iPod Touch 2st gen
                 { "iPod3,1", iOSChipType.A4 }, // iPod Touch 3rd gen
