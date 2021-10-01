@@ -136,6 +136,7 @@ namespace Xamarin.iOS
                 { "iPod5,1", iOSChipType.A5 }, // iPod Touch 5th gen
                 { "iPod7,1", iOSChipType.A8 }, // iPod Touch 6th gen
                 { "iPod9,1", iOSChipType.A10Fusion }, // iPod Touch 7th gen
+                { "mac", iOSChipType.AppleSiliconMac }, // iOS app running on Apple Silicon Mac
             };
         }
 
