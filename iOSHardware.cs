@@ -20,6 +20,16 @@ namespace Xamarin.iOS
             {
                 switch (hardware)
                 {
+                    case "iPhone15,2":
+                        return "iPhone 14 Pro";
+                    case "iPhone15,3":
+                        return "iPhone 14 Pro Max";
+                    case "iPhone14,8":
+                        return "iPhone 14 Plus";
+                    case "iPhone14,7":
+                        return "iPhone 14";
+                    case "iPhone14,6":
+                        return "iPhone SE (3rd generation)";
                     case "iPhone14,2":
                         return "iPhone 13 Pro";
                     case "iPhone14,3":
@@ -133,6 +143,9 @@ namespace Xamarin.iOS
                         return "iPad mini (6th generation) Wi-FI + Cellular";
                     case "iPad14,1":
                         return "iPad mini (6th generation) Wi-FI";
+                    case "iPad13,17":
+                    case "iPad13,16":
+                        return "iPad Air 5";
                     case "iPad13,11":
                         return "iPad Pro (12.9-inch) (5th generation) Wi-Fi + Cellular";
                     case "iPad13,10":
